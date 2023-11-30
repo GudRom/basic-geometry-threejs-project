@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
-    "dev": "webpack serve --config ./bundler/webpack.dev.js",
-    "lint": "eslint src --ext .js",
-    "lint:fix": "npm run lint -- --fix"
+    "dev": "webpack serve --config ./bundler/webpack.dev.js"
   },
   "repository": {
     "type": "git",
@@ -28,17 +26,12 @@
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.8.1",
-    "eslint": "^8.47.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "^5.0.0",
     "file-loader": "^6.2.0",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.3",
     "ip": "^1.1.8",
     "mini-css-extract-plugin": "^2.7.6",
     "portfinder-sync": "^0.0.2",
-    "prettier": "3.0.2",
     "raw-loader": "^4.0.2",
     "style-loader": "^3.3.3",
     "webpack": "^5.88.2",
@@ -47,7 +40,7 @@
     "webpack-merge": "^5.9.0"
   },
   "dependencies": {
-    "three": "^0.155.0",
-    "gsap": "^3.12.2"
+    "gsap": "^3.12.2",
+    "three": "^0.155.0"
   }
 }
